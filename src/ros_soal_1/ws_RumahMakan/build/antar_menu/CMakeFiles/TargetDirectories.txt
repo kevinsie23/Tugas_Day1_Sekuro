@@ -1,0 +1,11 @@
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/uninstall.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/antar_menu_uninstall.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/orderan_talker.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/antar_listener.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/test.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/edit_cache.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/rebuild_cache.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/list_install_components.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/install.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/install/local.dir
+/home/kevin/ws_RumahMakan/build/antar_menu/CMakeFiles/install/strip.dir

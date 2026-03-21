@@ -1,0 +1,11 @@
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/uninstall.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/antar_menu_uninstall.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/orderan_talker.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/antar_listener.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/test.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/edit_cache.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/rebuild_cache.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/list_install_components.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/install.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/install/local.dir
+/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu/CMakeFiles/install/strip.dir

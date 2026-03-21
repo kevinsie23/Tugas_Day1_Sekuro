@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2aa0a621da5ba8cedc53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "antar_menu",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "antar_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antar_listener-ff23a8924f54619e59ba.json",
+					"name" : "antar_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "antar_menu_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-antar_menu_uninstall-963860d2af7ee21ecff0.json",
+					"name" : "antar_menu_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "orderan_talker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-orderan_talker-dc9981c025741c8d1bf8.json",
+					"name" : "orderan_talker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-52ab36e44fcfb3b7a8c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu",
+		"source" : "/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/ws_RumahMakan/src/antar_menu"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

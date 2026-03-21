@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target orderan_talker[0m
+[ 50%] Built target antar_listener
+[ 75%] [32mBuilding CXX object CMakeFiles/orderan_talker.dir/src/orderan.cpp.o[0m
+[100%] [32m[1mLinking CXX executable orderan_talker[0m
+[100%] Built target orderan_talker
+-- Install configuration: ""
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/orderan_talker
+-- Set runtime path of "/home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/orderan_talker" to ""
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener
+-- Set runtime path of "/home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener" to ""
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/package_run_dependencies/antar_menu
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/parent_prefix_path/antar_menu
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.sh
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.dsv
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.sh
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.dsv
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.bash
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.sh
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.zsh
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.dsv
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.dsv
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/packages/antar_menu
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig.cmake
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig-version.cmake
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.xml

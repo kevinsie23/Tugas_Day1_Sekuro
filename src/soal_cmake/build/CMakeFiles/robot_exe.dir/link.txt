@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/robot_exe.dir/src/main.cpp.o CMakeFiles/robot_exe.dir/src/robot.cpp.o CMakeFiles/robot_exe.dir/src/robotair.cpp.o -o bin/robot_exe 

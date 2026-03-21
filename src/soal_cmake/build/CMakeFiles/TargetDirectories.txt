@@ -1,0 +1,3 @@
+/mnt/c/URO/Tugas Day 1 (Programming)/Tugas_Day1_Sekuro/src/soal_cmake/build/CMakeFiles/robot_exe.dir
+/mnt/c/URO/Tugas Day 1 (Programming)/Tugas_Day1_Sekuro/src/soal_cmake/build/CMakeFiles/edit_cache.dir
+/mnt/c/URO/Tugas Day 1 (Programming)/Tugas_Day1_Sekuro/src/soal_cmake/build/CMakeFiles/rebuild_cache.dir

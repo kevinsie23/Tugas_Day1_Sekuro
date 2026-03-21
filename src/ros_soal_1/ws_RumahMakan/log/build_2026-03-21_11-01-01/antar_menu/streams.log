@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/kevin/ws_RumahMakan/build/antar_menu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kevin/ws_RumahMakan/build/antar_menu -- -j20 -l20
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target orderan_talker[0m
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target antar_listener[0m
+[0.133s] [100%] Built target orderan_talker
+[0.133s] [100%] Built target antar_listener
+[0.139s] Invoked command in '/home/kevin/ws_RumahMakan/build/antar_menu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kevin/ws_RumahMakan/build/antar_menu -- -j20 -l20
+[0.146s] Invoking command in '/home/kevin/ws_RumahMakan/build/antar_menu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kevin/ws_RumahMakan/build/antar_menu
+[0.150s] -- Install configuration: ""
+[0.151s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/orderan_talker
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/package_run_dependencies/antar_menu
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/parent_prefix_path/antar_menu
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.sh
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.dsv
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.bash
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.sh
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.zsh
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.dsv
+[0.153s] -- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.dsv
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/packages/antar_menu
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig.cmake
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig-version.cmake
+[0.153s] -- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.xml
+[0.154s] Invoked command in '/home/kevin/ws_RumahMakan/build/antar_menu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kevin/ws_RumahMakan/build/antar_menu

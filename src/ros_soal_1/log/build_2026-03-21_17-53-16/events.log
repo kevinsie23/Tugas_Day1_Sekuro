@@ -1,0 +1,298 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (antar_menu) JobQueued: {'identifier': 'antar_menu', 'dependencies': OrderedDict()}
+[0.000725] (antar_menu) JobStarted: {'identifier': 'antar_menu'}
+[0.017980] (antar_menu) JobProgress: {'identifier': 'antar_menu', 'progress': 'cmake'}
+[0.052189] (antar_menu) Command: {'cmd': ['/usr/bin/cmake', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/ws_RumahMakan/src/antar_menu', '-DCMAKE_INSTALL_PREFIX=/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu'], 'cwd': '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/kevin'), ('OLDPWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('NAME', 'kevinsie'), ('WSL_INTEROP', '/run/WSL/328_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kevin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '05b85ff0-73cb-4559-b529-cad1770f8d46'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.097958] (-) TimerEvent: {}
+[0.198381] (-) TimerEvent: {}
+[0.298806] (-) TimerEvent: {}
+[0.399277] (-) TimerEvent: {}
+[0.439295] (antar_menu) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.499359] (-) TimerEvent: {}
+[0.599837] (-) TimerEvent: {}
+[0.700335] (-) TimerEvent: {}
+[0.800739] (-) TimerEvent: {}
+[0.901160] (-) TimerEvent: {}
+[0.923872] (antar_menu) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.001216] (-) TimerEvent: {}
+[1.101627] (-) TimerEvent: {}
+[1.178483] (antar_menu) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.201717] (-) TimerEvent: {}
+[1.302170] (-) TimerEvent: {}
+[1.402539] (-) TimerEvent: {}
+[1.502942] (-) TimerEvent: {}
+[1.603379] (-) TimerEvent: {}
+[1.703872] (-) TimerEvent: {}
+[1.804228] (-) TimerEvent: {}
+[1.904668] (-) TimerEvent: {}
+[1.957661] (antar_menu) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.004805] (-) TimerEvent: {}
+[2.075246] (antar_menu) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.077478] (antar_menu) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.083497] (antar_menu) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.104865] (-) TimerEvent: {}
+[2.161683] (antar_menu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.204983] (-) TimerEvent: {}
+[2.305574] (-) TimerEvent: {}
+[2.407017] (-) TimerEvent: {}
+[2.508384] (-) TimerEvent: {}
+[2.609087] (-) TimerEvent: {}
+[2.709506] (-) TimerEvent: {}
+[2.790251] (antar_menu) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.809690] (-) TimerEvent: {}
+[2.827111] (antar_menu) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.827870] (antar_menu) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.828317] (antar_menu) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.890938] (antar_menu) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.909814] (-) TimerEvent: {}
+[2.990913] (antar_menu) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.009915] (-) TimerEvent: {}
+[3.110352] (-) TimerEvent: {}
+[3.167719] (antar_menu) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.210439] (-) TimerEvent: {}
+[3.276486] (antar_menu) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.281428] (antar_menu) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.290263] (antar_menu) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.305250] (antar_menu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.310469] (-) TimerEvent: {}
+[3.321220] (antar_menu) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.363123] (antar_menu) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.366724] (antar_menu) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.410561] (-) TimerEvent: {}
+[3.511145] (-) TimerEvent: {}
+[3.611612] (-) TimerEvent: {}
+[3.712384] (-) TimerEvent: {}
+[3.812845] (-) TimerEvent: {}
+[3.913294] (-) TimerEvent: {}
+[4.013658] (-) TimerEvent: {}
+[4.055406] (antar_menu) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.113807] (-) TimerEvent: {}
+[4.218202] (-) TimerEvent: {}
+[4.318583] (-) TimerEvent: {}
+[4.419088] (-) TimerEvent: {}
+[4.519711] (-) TimerEvent: {}
+[4.620117] (-) TimerEvent: {}
+[4.720505] (-) TimerEvent: {}
+[4.784584] (antar_menu) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.820606] (-) TimerEvent: {}
+[4.921078] (-) TimerEvent: {}
+[5.022414] (-) TimerEvent: {}
+[5.122839] (-) TimerEvent: {}
+[5.223315] (-) TimerEvent: {}
+[5.323725] (-) TimerEvent: {}
+[5.424141] (-) TimerEvent: {}
+[5.524510] (-) TimerEvent: {}
+[5.624944] (-) TimerEvent: {}
+[5.725412] (-) TimerEvent: {}
+[5.825797] (-) TimerEvent: {}
+[5.926235] (-) TimerEvent: {}
+[6.026653] (-) TimerEvent: {}
+[6.083536] (antar_menu) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.126751] (-) TimerEvent: {}
+[6.136660] (antar_menu) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.226949] (-) TimerEvent: {}
+[6.328340] (-) TimerEvent: {}
+[6.428847] (-) TimerEvent: {}
+[6.529308] (-) TimerEvent: {}
+[6.629820] (-) TimerEvent: {}
+[6.730226] (-) TimerEvent: {}
+[6.730590] (antar_menu) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.747766] (antar_menu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.830322] (-) TimerEvent: {}
+[6.930766] (-) TimerEvent: {}
+[7.031397] (-) TimerEvent: {}
+[7.132184] (-) TimerEvent: {}
+[7.232715] (-) TimerEvent: {}
+[7.333206] (-) TimerEvent: {}
+[7.402900] (antar_menu) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.406705] (antar_menu) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.433320] (-) TimerEvent: {}
+[7.458720] (antar_menu) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.533408] (-) TimerEvent: {}
+[7.633870] (-) TimerEvent: {}
+[7.734225] (-) TimerEvent: {}
+[7.836207] (-) TimerEvent: {}
+[7.938659] (-) TimerEvent: {}
+[8.039173] (-) TimerEvent: {}
+[8.139562] (-) TimerEvent: {}
+[8.151331] (antar_menu) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.152000] (antar_menu) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.152592] (antar_menu) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.239612] (-) TimerEvent: {}
+[8.263623] (antar_menu) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.339689] (-) TimerEvent: {}
+[8.440173] (-) TimerEvent: {}
+[8.540547] (-) TimerEvent: {}
+[8.585633] (antar_menu) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.586450] (antar_menu) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.628874] (antar_menu) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.640640] (-) TimerEvent: {}
+[8.731621] (antar_menu) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.740719] (-) TimerEvent: {}
+[8.841148] (-) TimerEvent: {}
+[8.941556] (-) TimerEvent: {}
+[9.041951] (-) TimerEvent: {}
+[9.142501] (-) TimerEvent: {}
+[9.239698] (antar_menu) StdoutLine: {'line': b'-- Generating done\n'}
+[9.242541] (-) TimerEvent: {}
+[9.342927] (-) TimerEvent: {}
+[9.443616] (-) TimerEvent: {}
+[9.543961] (-) TimerEvent: {}
+[9.546033] (antar_menu) StdoutLine: {'line': b'-- Build files have been written to: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu\n'}
+[9.551926] (antar_menu) CommandEnded: {'returncode': 0}
+[9.555340] (antar_menu) JobProgress: {'identifier': 'antar_menu', 'progress': 'build'}
+[9.560524] (antar_menu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu', '--', '-j20', '-l20'], 'cwd': '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/kevin'), ('OLDPWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('NAME', 'kevinsie'), ('WSL_INTEROP', '/run/WSL/328_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kevin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '05b85ff0-73cb-4559-b529-cad1770f8d46'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[9.644052] (-) TimerEvent: {}
+[9.687537] (antar_menu) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/orderan_talker.dir/src/orderan.cpp.o\x1b[0m\n'}
+[9.689620] (antar_menu) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/antar_listener.dir/src/antar.cpp.o\x1b[0m\n'}
+[9.744139] (-) TimerEvent: {}
+[9.844625] (-) TimerEvent: {}
+[9.945240] (-) TimerEvent: {}
+[10.045764] (-) TimerEvent: {}
+[10.146417] (-) TimerEvent: {}
+[10.247105] (-) TimerEvent: {}
+[10.347783] (-) TimerEvent: {}
+[10.448362] (-) TimerEvent: {}
+[10.549228] (-) TimerEvent: {}
+[10.650804] (-) TimerEvent: {}
+[10.751567] (-) TimerEvent: {}
+[10.852221] (-) TimerEvent: {}
+[10.953027] (-) TimerEvent: {}
+[11.053656] (-) TimerEvent: {}
+[11.154422] (-) TimerEvent: {}
+[11.255014] (-) TimerEvent: {}
+[11.355812] (-) TimerEvent: {}
+[11.456620] (-) TimerEvent: {}
+[11.558046] (-) TimerEvent: {}
+[11.658895] (-) TimerEvent: {}
+[11.759519] (-) TimerEvent: {}
+[11.860902] (-) TimerEvent: {}
+[11.961881] (-) TimerEvent: {}
+[12.065779] (-) TimerEvent: {}
+[12.166635] (-) TimerEvent: {}
+[12.267401] (-) TimerEvent: {}
+[12.369291] (-) TimerEvent: {}
+[12.470495] (-) TimerEvent: {}
+[12.571796] (-) TimerEvent: {}
+[12.672541] (-) TimerEvent: {}
+[12.773168] (-) TimerEvent: {}
+[12.873797] (-) TimerEvent: {}
+[12.975659] (-) TimerEvent: {}
+[13.076149] (-) TimerEvent: {}
+[13.115684] (antar_menu) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable orderan_talker\x1b[0m\n'}
+[13.176269] (-) TimerEvent: {}
+[13.277887] (-) TimerEvent: {}
+[13.378343] (-) TimerEvent: {}
+[13.478964] (-) TimerEvent: {}
+[13.579556] (-) TimerEvent: {}
+[13.680124] (-) TimerEvent: {}
+[13.780586] (-) TimerEvent: {}
+[13.881049] (-) TimerEvent: {}
+[13.981525] (-) TimerEvent: {}
+[14.081945] (-) TimerEvent: {}
+[14.182419] (-) TimerEvent: {}
+[14.284052] (-) TimerEvent: {}
+[14.384614] (-) TimerEvent: {}
+[14.485343] (-) TimerEvent: {}
+[14.587833] (-) TimerEvent: {}
+[14.638491] (antar_menu) StdoutLine: {'line': b'[ 75%] Built target orderan_talker\n'}
+[14.687930] (-) TimerEvent: {}
+[14.788446] (-) TimerEvent: {}
+[14.889961] (-) TimerEvent: {}
+[14.990437] (-) TimerEvent: {}
+[15.090853] (-) TimerEvent: {}
+[15.192711] (-) TimerEvent: {}
+[15.293160] (-) TimerEvent: {}
+[15.393584] (-) TimerEvent: {}
+[15.495821] (-) TimerEvent: {}
+[15.597889] (-) TimerEvent: {}
+[15.698301] (-) TimerEvent: {}
+[15.799542] (-) TimerEvent: {}
+[15.899948] (-) TimerEvent: {}
+[15.913937] (antar_menu) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable antar_listener\x1b[0m\n'}
+[16.000127] (-) TimerEvent: {}
+[16.101744] (-) TimerEvent: {}
+[16.202193] (-) TimerEvent: {}
+[16.302627] (-) TimerEvent: {}
+[16.403340] (-) TimerEvent: {}
+[16.504722] (-) TimerEvent: {}
+[16.605173] (-) TimerEvent: {}
+[16.706954] (-) TimerEvent: {}
+[16.807754] (-) TimerEvent: {}
+[16.908322] (-) TimerEvent: {}
+[17.009376] (-) TimerEvent: {}
+[17.111049] (-) TimerEvent: {}
+[17.213072] (-) TimerEvent: {}
+[17.313499] (-) TimerEvent: {}
+[17.413955] (-) TimerEvent: {}
+[17.514470] (-) TimerEvent: {}
+[17.615178] (-) TimerEvent: {}
+[17.715888] (-) TimerEvent: {}
+[17.817011] (-) TimerEvent: {}
+[17.917540] (-) TimerEvent: {}
+[18.018004] (-) TimerEvent: {}
+[18.118512] (-) TimerEvent: {}
+[18.219002] (-) TimerEvent: {}
+[18.319481] (-) TimerEvent: {}
+[18.419923] (-) TimerEvent: {}
+[18.520338] (-) TimerEvent: {}
+[18.620937] (-) TimerEvent: {}
+[18.721430] (-) TimerEvent: {}
+[18.821923] (-) TimerEvent: {}
+[18.922433] (-) TimerEvent: {}
+[19.022888] (-) TimerEvent: {}
+[19.123514] (-) TimerEvent: {}
+[19.223980] (-) TimerEvent: {}
+[19.324473] (-) TimerEvent: {}
+[19.389661] (antar_menu) StdoutLine: {'line': b'[100%] Built target antar_listener\n'}
+[19.424617] (-) TimerEvent: {}
+[19.435697] (antar_menu) CommandEnded: {'returncode': 0}
+[19.461557] (antar_menu) JobProgress: {'identifier': 'antar_menu', 'progress': 'install'}
+[19.474497] (antar_menu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu'], 'cwd': '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kevin'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'), ('HOME', '/home/kevin'), ('OLDPWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kevin'), ('NAME', 'kevinsie'), ('WSL_INTEROP', '/run/WSL/328_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/mingw64/bin:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/kevin/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/kevin/AppData/Local/Microsoft/WindowsApps:/mnt/c/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('WT_SESSION', '05b85ff0-73cb-4559-b529-cad1770f8d46'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/build/antar_menu'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/kevin/ws_13525053_TegalJaya/install/13525053_Tokopedia:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[19.486559] (antar_menu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.521191] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/lib/antar_menu/orderan_talker\n'}
+[19.524672] (-) TimerEvent: {}
+[19.625108] (-) TimerEvent: {}
+[19.725502] (-) TimerEvent: {}
+[19.765525] (antar_menu) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/lib/antar_menu/orderan_talker" to ""\n'}
+[19.795081] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/lib/antar_menu/antar_listener\n'}
+[19.825609] (-) TimerEvent: {}
+[19.926334] (-) TimerEvent: {}
+[20.027153] (-) TimerEvent: {}
+[20.127776] (-) TimerEvent: {}
+[20.146372] (antar_menu) StdoutLine: {'line': b'-- Set runtime path of "/mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/lib/antar_menu/antar_listener" to ""\n'}
+[20.192503] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/ament_index/resource_index/package_run_dependencies/antar_menu\n'}
+[20.227878] (-) TimerEvent: {}
+[20.286618] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/ament_index/resource_index/parent_prefix_path/antar_menu\n'}
+[20.327997] (-) TimerEvent: {}
+[20.361766] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/environment/ament_prefix_path.sh\n'}
+[20.415438] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/environment/ament_prefix_path.dsv\n'}
+[20.428069] (-) TimerEvent: {}
+[20.478840] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/environment/path.sh\n'}
+[20.528151] (-) TimerEvent: {}
+[20.531693] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/environment/path.dsv\n'}
+[20.583522] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/local_setup.bash\n'}
+[20.626842] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/local_setup.sh\n'}
+[20.628182] (-) TimerEvent: {}
+[20.675508] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/local_setup.zsh\n'}
+[20.720312] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/local_setup.dsv\n'}
+[20.728233] (-) TimerEvent: {}
+[20.766577] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/package.dsv\n'}
+[20.828338] (-) TimerEvent: {}
+[20.894424] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/ament_index/resource_index/packages/antar_menu\n'}
+[20.928420] (-) TimerEvent: {}
+[20.983955] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/cmake/antar_menuConfig.cmake\n'}
+[21.028504] (-) TimerEvent: {}
+[21.037313] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/cmake/antar_menuConfig-version.cmake\n'}
+[21.097824] (antar_menu) StdoutLine: {'line': b'-- Installing: /mnt/c/URO/Tugas Day 1/Tugas_Day1_Sekuro/src/ros_soal_1/install/antar_menu/share/antar_menu/package.xml\n'}
+[21.128627] (-) TimerEvent: {}
+[21.134718] (antar_menu) CommandEnded: {'returncode': 0}
+[21.228724] (-) TimerEvent: {}
+[21.329169] (-) TimerEvent: {}
+[21.430769] (-) TimerEvent: {}
+[21.531397] (-) TimerEvent: {}
+[21.632548] (-) TimerEvent: {}
+[21.734694] (-) TimerEvent: {}
+[21.835082] (-) TimerEvent: {}
+[21.899449] (antar_menu) JobEnded: {'identifier': 'antar_menu', 'rc': 0}
+[21.921269] (-) EventReactorShutdown: {}

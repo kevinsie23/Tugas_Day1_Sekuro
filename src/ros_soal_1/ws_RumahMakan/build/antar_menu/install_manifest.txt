@@ -1,0 +1,17 @@
+/home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/orderan_talker
+/home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener
+/home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/package_run_dependencies/antar_menu
+/home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/parent_prefix_path/antar_menu
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.sh
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.dsv
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.sh
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.dsv
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.bash
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.sh
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.zsh
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.dsv
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.dsv
+/home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/packages/antar_menu
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig.cmake
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig-version.cmake
+/home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.xml

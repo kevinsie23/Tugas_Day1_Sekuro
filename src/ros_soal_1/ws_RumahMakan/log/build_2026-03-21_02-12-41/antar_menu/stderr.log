@@ -1,0 +1,40 @@
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:[m[K In constructor ‘[01m[KOrderanPublisher::OrderanPublisher()[m[K’:
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:16:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KOrderanPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   16 |     OrderanPublisher() : Node("orderan_node"), [01;31m[Kcount_[m[K(0)
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:23:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt164_64[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmt19937_64[m[K’?
+   23 |         gen_ = std::[01;31m[Kmt164_64[m[K(rd());
+      |                     [01;31m[K^~~~~~~~[m[K
+      |                     [32m[Kmt19937_64[m[K
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:[m[K In constructor ‘[01m[KAntarSubscriber::AntarSubscriber()[m[K’:
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:19:39:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+   19 |         "masak_topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:[m[K In member function ‘[01m[Kvoid AntarSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:25:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ is not a member of ‘[01m[Kstd[m[K’
+   25 |         std::[01;31m[Kmakanan[m[K = msg->data;
+      |              [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:6[m[K:
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:26:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ was not declared in this scope
+   26 |         RCLCPP_INFO(this->get_logger(), "Diterima: '%s'", [01;31m[Kmakanan[m[K.c_str());
+      |                                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:31:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ was not declared in this scope
+   31 |         RCLCPP_INFO(this->get_logger(), "Selesai! '%s' siap disajikan.", [01;31m[Kmakanan[m[K.c_str());
+      |                                                                          [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/antar_listener.dir/build.make:76: CMakeFiles/antar_listener.dir/src/antar.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/antar_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/orderan_talker.dir/build.make:76: CMakeFiles/orderan_talker.dir/src/orderan.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/orderan_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/antar_listener.dir/src/antar.cpp.o[0m
+[ 75%] Built target orderan_talker
+[100%] [32m[1mLinking CXX executable antar_listener[0m
+[100%] Built target antar_listener
+-- Install configuration: ""
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/orderan_talker
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener
+-- Set runtime path of "/home/kevin/ws_RumahMakan/install/antar_menu/lib/antar_menu/antar_listener" to ""
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/package_run_dependencies/antar_menu
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/parent_prefix_path/antar_menu
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.sh
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/environment/path.dsv
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.bash
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.sh
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.zsh
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/local_setup.dsv
+-- Installing: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.dsv
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/ament_index/resource_index/packages/antar_menu
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig.cmake
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/cmake/antar_menuConfig-version.cmake
+-- Up-to-date: /home/kevin/ws_RumahMakan/install/antar_menu/share/antar_menu/package.xml

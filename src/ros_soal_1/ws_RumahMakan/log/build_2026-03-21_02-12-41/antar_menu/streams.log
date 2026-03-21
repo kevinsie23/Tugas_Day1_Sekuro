@@ -1,0 +1,46 @@
+[0.012s] Invoking command in '/home/kevin/ws_RumahMakan/build/antar_menu': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kevin/ws_RumahMakan/build/antar_menu -- -j20 -l20
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target orderan_talker[0m
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target antar_listener[0m
+[0.082s] [ 25%] [32mBuilding CXX object CMakeFiles/antar_listener.dir/src/antar.cpp.o[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/orderan_talker.dir/src/orderan.cpp.o[0m
+[1.602s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:[m[K In constructor ‘[01m[KOrderanPublisher::OrderanPublisher()[m[K’:
+[1.602s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:16:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KOrderanPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.602s]    16 |     OrderanPublisher() : Node("orderan_node"), [01;31m[Kcount_[m[K(0)
+[1.602s]       |                                                [01;31m[K^~~~~~[m[K
+[1.604s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/orderan.cpp:23:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt164_64[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kmt19937_64[m[K’?
+[1.604s]    23 |         gen_ = std::[01;31m[Kmt164_64[m[K(rd());
+[1.604s]       |                     [01;31m[K^~~~~~~~[m[K
+[1.604s]       |                     [32m[Kmt19937_64[m[K
+[1.606s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:[m[K In constructor ‘[01m[KAntarSubscriber::AntarSubscriber()[m[K’:
+[1.606s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:19:39:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalSubscriber[m[K’ has not been declared
+[1.606s]    19 |         "masak_topic", 10, std::bind(&[01;31m[KMinimalSubscriber[m[K::topic_callback, this, _1));
+[1.606s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.608s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:[m[K In member function ‘[01m[Kvoid AntarSubscriber::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.608s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:25:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[1.608s]    25 |         std::[01;31m[Kmakanan[m[K = msg->data;
+[1.609s]       |              [01;31m[K^~~~~~~[m[K
+[1.612s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.612s]                  from [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:6[m[K:
+[1.612s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:26:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ was not declared in this scope
+[1.612s]    26 |         RCLCPP_INFO(this->get_logger(), "Diterima: '%s'", [01;31m[Kmakanan[m[K.c_str());
+[1.612s]       |                                                           [01;31m[K^~~~~~~[m[K
+[1.617s] [01m[K/home/kevin/ws_RumahMakan/src/antar_menu/src/antar.cpp:31:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kmakanan[m[K’ was not declared in this scope
+[1.617s]    31 |         RCLCPP_INFO(this->get_logger(), "Selesai! '%s' siap disajikan.", [01;31m[Kmakanan[m[K.c_str());
+[1.617s]       |                                                                          [01;31m[K^~~~~~~[m[K
+[1.875s] gmake[2]: *** [CMakeFiles/antar_listener.dir/build.make:76: CMakeFiles/antar_listener.dir/src/antar.cpp.o] Error 1
+[1.875s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/antar_listener.dir/all] Error 2
+[1.876s] gmake[1]: *** Waiting for unfinished jobs....
+[2.087s] gmake[2]: *** [CMakeFiles/orderan_talker.dir/build.make:76: CMakeFiles/orderan_talker.dir/src/orderan.cpp.o] Error 1
+[2.088s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/orderan_talker.dir/all] Error 2
+[2.088s] gmake: *** [Makefile:146: all] Error 2
+[2.089s] Invoked command in '/home/kevin/ws_RumahMakan/build/antar_menu' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kevin/ws_RumahMakan/build/antar_menu -- -j20 -l20
